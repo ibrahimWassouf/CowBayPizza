@@ -1,0 +1,32 @@
+main {
+    margin: auto;
+    min-width: 90vw;
+    overflow: hidden;
+
+}
+
+.card {
+    margin: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    flex:auto;
+}
+.sub-card {
+    display: grid;
+}
+
+.sub-card p {
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.sub-card ul {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex:auto;
+}
