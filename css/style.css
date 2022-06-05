@@ -1,9 +1,18 @@
 
 main {
+    display:flex;
+    flex-direction: column;
     margin: auto;
     min-width: 90vw;
     overflow: hidden;
+    align-items: center;;
 
+}
+
+.fb-page {
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 
 .card {
@@ -34,5 +43,7 @@ main {
     list-style-type: none;
     flex-direction: row;
     justify-content: flex-end;
-    flex-wrap :wrap;   
+    flex-wrap :wrap;
+    gap: 5px;
+
 }
