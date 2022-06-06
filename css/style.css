@@ -1,19 +1,53 @@
 
+header img{
+    width:50px;
+}
+
 main {
     display:flex;
     flex-direction: column;
     margin: auto;
     min-width: 90vw;
     overflow: hidden;
-    align-items: center;;
-    background-color: #FFFAF0;
+    align-items: center;
+    gap: 50px;
+    padding-top:5rem;
+    padding-bottom: 5rem;
+    background-color: #FFFEFC;
+}
 
+.navbar {
+    background-color: #27251F;
+}
+.map-container {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+#contact {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width:90vw;
+    margin:auto;
+}
+
+#contact-text {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    text-align:center;
 }
 
 .fb-page {
-    display: flex;
+    margin:auto;
+    width:18rem;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
 }
 
 .card {
@@ -22,6 +56,7 @@ main {
     display: flex;
     flex-direction: column;
     flex:auto;
+    box-shadow: -0.5rem .5rem 0.1rem red;
 }
 .sub-card {
     display: grid;
