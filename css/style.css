@@ -11,34 +11,41 @@ main {
     overflow: hidden;
     align-items: center;
     gap: 50px;
-    padding-top:5rem;
-    padding-bottom: 5rem;
+    padding-top:50px;
+    padding-bottom: 50px;
     background-color: #FFFEFC;
+    
 }
 
 .navbar {
     background-color: #27251F;
 }
+
 .map-container {
     display:flex;
+    margin:auto;
     flex-direction:column;
-    gap:10px;
+    justify-content: center;
+    align-items:flex-start;
+    gap:2rem;
 }
+
+
 #contact {
     display:flex;
     flex-direction:column;
-    align-items: center;
-    width:90vw;
+    justify-content: flex-start ;
+    align-items: flex-start;
+    width: 350px;
     margin:auto;
 }
 
 #contact-text {
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:5px;
-    text-align:center;
+    align-items: flex-start;
+    gap:1rem;
+    text-align:left;
 }
 
 .fb-page {
@@ -50,13 +57,36 @@ main {
     align-items: center;
 }
 
+#menu{
+    margin: 1rem;
+    max-width: 750px;
+    align-content: stretch;
+}
+
+
+main .nav-link {
+    color: red;
+}
+
+#menu h1 {
+    text-align: center;
+}
 .card {
-    margin: auto;
-    width: 90vw;
+    
+    margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
+    align-content: stretch;
     flex:auto;
-    box-shadow: -0.5rem .5rem 0.1rem red;
+    box-shadow: -0.5rem .5rem 0.1rem #e32929;
+}
+
+h3 {
+    display: inline-block;
+    background-color: #ffb80e;
+    padding: 0.5rem;
+    border: 1px solid #27251F;
+    border-radius: 8px;
 }
 .sub-card {
     display: grid;
