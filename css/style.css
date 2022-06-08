@@ -21,6 +21,21 @@ main {
     background-color: #27251F;
 }
 
+#menu-title.sticky {
+    padding-bottom: 45px;
+}
+
+#menu-nav.sticky {
+    position: fixed;
+    top: 76px;
+    right: 10vw;
+    left: 10vw;
+    z-index: 1;
+
+    background-color: #EBD489;
+    border-radius: 8px;
+}
+
 .map-container {
     display:flex;
     margin:auto;
@@ -63,9 +78,8 @@ main {
     align-content: stretch;
 }
 
-
 main .nav-link {
-    color: red;
+    color: #27251F;
 }
 
 #menu h1 {
