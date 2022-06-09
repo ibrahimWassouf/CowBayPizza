@@ -13,12 +13,12 @@ main {
     gap: 50px;
     padding-top:50px;
     padding-bottom: 50px;
-    background-color: #FFFEFC;
+    background-color: #FFFDFA;
     
 }
 
 .navbar {
-    background-color: #27251F;
+    background-color: #0B0C0C;
 }
 
 #menu-title.sticky {
@@ -32,8 +32,15 @@ main {
     left: 10vw;
     z-index: 1;
 
-    background-color: #EBD489;
+    background-color: rgb(195, 221, 48);
+    box-shadow: 0.1rem 0.1rem 0.5rem #0B0C0C;
     border-radius: 8px;
+}
+
+
+
+#logo {
+    width: 250px;
 }
 
 .map-container {
@@ -42,15 +49,15 @@ main {
     flex-direction:column;
     justify-content: center;
     align-items:flex-start;
-    gap:2rem;
+    gap:0.25rem;
 }
 
 
 #contact {
     display:flex;
     flex-direction:column;
-    justify-content: flex-start ;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 350px;
     margin:auto;
 }
@@ -82,6 +89,10 @@ main .nav-link {
     color: #27251F;
 }
 
+main .nav-link.newActive {
+    background-color: rgb(223, 230, 184);
+}
+
 #menu h1 {
     text-align: center;
 }
@@ -92,14 +103,16 @@ main .nav-link {
     flex-direction: column;
     align-content: stretch;
     flex:auto;
-    box-shadow: -0.5rem .5rem 0.1rem #e32929;
+    box-shadow: -0.5rem .5rem 0.1rem #ee2363;
+    scroll-margin-top: 150px;
 }
+
 
 h3 {
     display: inline-block;
-    background-color: #ffb80e;
+    background-color: #F7D11Dff;
     padding: 0.5rem;
-    border: 1px solid #27251F;
+    border: 1px solid #0B0C0C;
     border-radius: 8px;
 }
 .sub-card {
@@ -107,6 +120,7 @@ h3 {
     padding-top: 1rem;
     border-top-style: dashed;
     border-top-width: 1px;
+    
 }
 
 .sub-card p {
