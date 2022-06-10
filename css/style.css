@@ -16,6 +16,7 @@ main {
     background-color: #FFFDFA;
     
 }
+
 #bg-img-div {
     width: 100vw;
     height: 600px;
@@ -24,6 +25,31 @@ main {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+#test {
+    display: flex;
+    width:100vw;
+}
+
+.bg-img-sequence {
+    width: 100vw;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+}
+
+#img1 {
+    background-image: url('../img/pizza-being-sliced.jpg');
+}
+
+#img2 {
+    background-image: url('../img/pizza-slicing.jpg');
+}
+
+#img3 {
+    background-image: url('../img/pizza\ pie.jpg');
 }
 
 .navbar {
