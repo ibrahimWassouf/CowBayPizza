@@ -105,6 +105,18 @@ main {
     text-align:left;
 }
 
+#social-media {
+    margin:auto;
+}
+#fb, #instagram{
+    width: 4rem;
+    padding-left: 8px;
+}
+
+#tiktok {
+    width: 5rem;
+}
+
 .fb-page {
     margin:auto;
     width:18rem;
@@ -175,4 +187,21 @@ h3 {
     flex-wrap :wrap;
     gap: 5px;
 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#fb-footer, #instagram-footer{
+    width:2rem;
+}
+
+#tiktok-footer {
+    width: 2.5rem;
 }
