@@ -1,5 +1,6 @@
 
 //declare header nav and menu nav
+const card = document.getElementById('pizza-card');
 const mainNav = document.getElementById('main-nav').getBoundingClientRect();
 const menuNav = document.getElementById('menu-nav').getBoundingClientRect();
 const menuNavLinks = document.getElementById('menu').getElementsByClassName('nav-link');
@@ -9,11 +10,11 @@ let lastScrollPosition = mainNav.bottom;
 
 document.addEventListener("scroll", function(){
     lastScrollPosition = window.scrollY;
-    if (menuNav.top <= lastScrollPosition){
+    if (card.offsetTop <= lastScrollPosition){
         document.getElementById('menu-nav').classList.add('sticky')
         document.getElementById('menu-title').classList.add('sticky');
     }
-    else {
+    else{
         document.getElementById('menu-nav').classList.remove('sticky');
         document.getElementById('menu-title').classList.remove('sticky');
     }
@@ -31,4 +32,3 @@ document.addEventListener("scroll", function(){
 
     });
 });
-

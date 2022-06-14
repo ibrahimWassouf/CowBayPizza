@@ -78,22 +78,30 @@ main {
     width: 250px;
 }
 
-.map-container {
-    display:flex;
-    margin:auto;
-    flex-direction:column;
-    justify-content: center;
-    align-items:flex-start;
-    gap:0.25rem;
+
+#location-header {
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    padding: 50px 0 0 0;
 }
 
+.map-container {
+    display:flex;
+    width: 90vw;
+    max-width: 1500px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
 #contact {
     display:flex;
-    flex-direction:column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 95vw;
+    gap: 0 0 2rem 0;
     margin:auto;
 }
 
@@ -127,9 +135,10 @@ main {
 }
 
 #menu{
-    margin: 1rem;
     max-width: 750px;
+    padding-top: 200px;
     align-content: stretch;
+    width: 90vw;
 }
 
 main .nav-link {
@@ -204,4 +213,17 @@ footer {
 
 #tiktok-footer {
     width: 2.5rem;
+}
+
+@media screen and (min-width: 850px) {
+    #contact {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        padding: 8rem 0;
+        gap: 2rem;
+        margin:auto;
+    }
 }
