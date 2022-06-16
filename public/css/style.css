@@ -32,27 +32,6 @@ main {
     overflow:hidden;
 }
 
-.bg-img-sequence {
-    width: 100vw;
-    height:95vh;
-    background-position:center; 
-    background-repeat: no-repeat;
-    background-size: 400%;
-    overflow: hidden;
-}
-
-#img1 {
-    background-image: url('../img/pizza\ pie.jpg');
-    background-size: 500%;
-}
-
-#img2 {
-    background-image: url('../img/works\ pizza.jpg');
-}
-
-#img3 {
-    background-image: url('../img/meatlovers\ supreme.jpg');
-}
 
 .navbar {
     background-color: #0B0C0C;
@@ -138,7 +117,6 @@ main {
 
 #menu{
     max-width: 750px;
-    padding-top: 200px;
     align-content: stretch;
     width: 90vw;
 }
