@@ -19,7 +19,7 @@ main {
 
 #bg-img-div {
     width: 100vw;
-    height: 110vh;
+    height: 95vh;
     box-shadow: inset 0 0 30px black;
     background-image: url('../img/pizza\ pie.jpg');
     background-position: center;
@@ -29,25 +29,29 @@ main {
 #test {
     display: flex;
     width:100vw;
+    overflow:hidden;
 }
 
 .bg-img-sequence {
     width: 100vw;
-    height:110vh;
-    background-position: center; 
-    background-size: cover;
+    height:95vh;
+    background-position:center; 
+    background-repeat: no-repeat;
+    background-size: 400%;
+    overflow: hidden;
 }
 
 #img1 {
-    background-image: url('../img/pizza-being-sliced.jpg');
+    background-image: url('../img/pizza\ pie.jpg');
+    background-size: 500%;
 }
 
 #img2 {
-    background-image: url('../img/pizza-slicing.jpg');
+    background-image: url('../img/works\ pizza.jpg');
 }
 
 #img3 {
-    background-image: url('../img/pizza\ pie.jpg');
+    background-image: url('../img/meatlovers\ supreme.jpg');
 }
 
 .navbar {
