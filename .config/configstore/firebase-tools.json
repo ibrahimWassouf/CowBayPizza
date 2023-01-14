@@ -1,0 +1,49 @@
+{
+	"analytics-uuid": "564f0b8a-c34d-47cf-9e10-6bcfab446d40",
+	"motd": {
+		"cloudBuildErrorAfter": 1594252800000,
+		"cloudBuildWarnAfter": 1590019200000,
+		"defaultNode10After": 1594252800000,
+		"minVersion": "3.0.5",
+		"node8DeploysDisabledAfter": 1613390400000,
+		"node8RuntimeDisabledAfter": 1615809600000,
+		"node8WarnAfter": 1600128000000,
+		"fetched": 1655391589163
+	},
+	"usage": false,
+	"user": {
+		"iss": "accounts.google.com",
+		"azp": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"aud": "563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com",
+		"sub": "101100344433793189650",
+		"email": "cowbaypizza@hotmail.com",
+		"email_verified": true,
+		"at_hash": "GMS96zyvgskmmSfeVcbu-A",
+		"iat": 1655235369,
+		"exp": 1655238969
+	},
+	"tokens": {
+		"expires_at": 1655401830013,
+		"refresh_token": "1//0dI9KKSe6DntLCgYIARAAGA0SNwF-L9Irq9lKFSqLnzc9SgKb6pyJmmj7wQWjqZU_dBljt13UepEssQjnjVDaZ32jsQzU20MlACk",
+		"scopes": [],
+		"access_token": "ya29.A0ARrdaM8bxy_6i5yePkbtlsADuQGBRZ-NBrdiONgDR-IChvAjHa6HoeVmW9Xg67JFufl8xYi3uWY46Xu8fP6-4qb64au8p3jFMzARyjGSSK8cJMX6iQqB_2fNpcHoObwlCjXRVWhSTvpJK2eybY_vupuDJ-7ZwgJoDltUawYUNnWUtBVEFTQVRBU0ZRRl91NjFWeXNXWmVYekJyVVVaeUpFYmMzTUtEQQ0173",
+		"expires_in": 3599,
+		"scope": "https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid",
+		"token_type": "Bearer",
+		"id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjU4MGFkYjBjMzJhMTc1ZDk1MGExYzE5MDFjMTgyZmMxNzM0MWRkYzQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNTYzNTg0MzM1ODY5LWZncmhnbWQ0N2JxbmVraWo1aThiNXByMDNobzg0OWU2LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAxMTAwMzQ0NDMzNzkzMTg5NjUwIiwiZW1haWwiOiJjb3diYXlwaXp6YUBob3RtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoieVpsbUVCSS02cGtaekxMbjFoNmRIUSIsImlhdCI6MTY1NTM5ODIzMSwiZXhwIjoxNjU1NDAxODMxfQ.sIasOULcXvb9N-z7nBtiuGM_1WGSUACa-HGGVQjKkh-GiU9-r-Z6hFYgpWaJvizLELVFGXMdF5WA-Rg_x6ykg-h1x34OwRSEJIM_FbIMiBchbbDamsgGtDe1j-izc5C5NP0rPLhaqrjt0hu-5-nK5WkwgR70mzOq4DwoyXpVP4ie6XQs03HIiL7VOhopkLI-QeoXHBtBU8R43NL254C6-jeN0VHq9HpXgK2k41Ar6l7iLI59YUSyiFbyVmIFLE3q8erRCOSd4CE2DgNznJWNxTg00IQyAvdhtb1waTFcPTasQ6hXtqBgnrmve6-ag2UpNhMUyPehCBApL-UU-J8h7Q"
+	},
+	"activeProjects": {
+		"/Users/ibrahimmbp/cbp": "cbp-website-43c12"
+	},
+	"webconfig": {
+		"cbp-website-43c12": {
+			"projectId": "cbp-website-43c12",
+			"appId": "1:563250792579:web:e95f8ddeb09f6d2c14b3b6",
+			"storageBucket": "cbp-website-43c12.appspot.com",
+			"apiKey": "AIzaSyDTTZk3TMxYaBLJrkg21z43mtx8lBmAgK4",
+			"authDomain": "cbp-website-43c12.firebaseapp.com",
+			"messagingSenderId": "563250792579",
+			"measurementId": "G-7P2RC2PGCN"
+		}
+	}
+}
