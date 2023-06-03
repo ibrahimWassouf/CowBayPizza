@@ -2,5 +2,10 @@
   "dependencies": {
     "firebase-tools": "^11.1.0",
     "npm": "^8.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "csv": "^6.3.1",
+    "typescript": "^5.1.3"
   }
 }
