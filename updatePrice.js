@@ -44,8 +44,10 @@ var __asyncValues = (this && this.__asyncValues) || function (o) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var fs_1 = require("fs");
+var promises_1 = require("node:fs/promises");
 var csv_parse_1 = require("csv-parse");
 var filePath = process.argv[2];
+//grabbed from the csv.js.org docs
 function processFile() {
     var _a, e_1, _b, _c;
     return __awaiter(this, void 0, void 0, function () {
@@ -97,13 +99,17 @@ function processFile() {
     });
 }
 (function () { return __awaiter(void 0, void 0, void 0, function () {
-    var records;
+    var records, recordsJSON;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: return [4 /*yield*/, processFile()];
             case 1:
                 records = _a.sent();
-                console.log(records);
+                recordsJSON = JSON.stringify(records);
+                return [4 /*yield*/, (0, promises_1.writeFile)("menu.json", recordsJSON)];
+            case 2:
+                _a.sent();
+                console.log(recordsJSON);
                 return [2 /*return*/];
         }
     });

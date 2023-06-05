@@ -1,4 +1,5 @@
-import { createReadStream } from "fs";
+import { createReadStream, createWriteStream } from "fs";
+import { writeFile } from "node:fs/promises";
 import { parse } from "csv-parse";
 
 const filePath = process.argv[2];
@@ -15,5 +16,7 @@ async function processFile() {
 
 (async () => {
   const records = await processFile();
-  console.log(records);
+  const recordsJSON = JSON.stringify(records);
+  await writeFile("menu.json", recordsJSON);
+  console.log(recordsJSON);
 })();
