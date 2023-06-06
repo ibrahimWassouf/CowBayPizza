@@ -53,6 +53,12 @@
           </section>
         </section>
       </nav>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"
+        integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
     </header>
 
     <main>
@@ -156,18 +162,18 @@
               Specialty Topping: Donair, Ham, Italian Sausage, Black Olives,
               Tomatoes, Hot Peppers, Pineapple
             </p>
-
-            <section id="cheese" class="sub-card">
-              <h6>Cheese</h6>
-              <p>Just cheesy goodness.</p>
-              <ul>
-                <li>10.99(S)</li>
-                <li>12.99(M)</li>
-                <li>18.99(L)</li>
-                <li>20.99(XL)</li>
-              </ul>
-            </section>
-
+            <script id="cheese-card" type="text/x-handlebars-template">
+              <section id="cheese" class="sub-card">
+                <h6>{{title}}</h6>
+                <p>Just cheesy goodness.</p>
+                <ul>
+                  <li>{{small}}(S)</li>
+                  <li>{{medium}}(M)</li>
+                  <li>{{large}}(L)</li>
+                  <li>{{xLarge}}(XL)</li>
+                </ul>
+              </section>
+            </script>
             <section id="1-topping" class="sub-card">
               <h6>1 Topping</h6>
               <p>Add any Regular Topping for an extra flavour to your pizza.</p>
@@ -749,6 +755,6 @@
     ></script>
     <script async src="https://www.tiktok.com/embed.js"></script>
 
-    <script src="./js/script.js"></script>
+    <script type="module" src="./js/script.js"></script>
   </body>
 </html>

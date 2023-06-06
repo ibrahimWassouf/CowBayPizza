@@ -1,12 +1,23 @@
 async function loadJSON() {
   const response = await fetch("menu.json");
   const data = await response.json();
-  console.log(data);
+  return data;
 }
 
-(async () => {
-  await loadJSON();
-})();
+loadJSON().then((data) => {
+  const source = document.getElementById("cheese").innerHTML;
+  const template = Handlebars.compile(source);
+  const context = {
+    title: data[0][0],
+    small: data[0][1],
+    medium: data[0][2],
+    large: data[0][3],
+    xlarge: data[0][4],
+  };
+  const html = template(context);
+  source += html;
+});
+
 //declare header nav and menu nav
 const card = document.getElementById("pizza-card");
 const mainNav = document.getElementById("main-nav").getBoundingClientRect();

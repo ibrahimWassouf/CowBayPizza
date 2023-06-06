@@ -1,10 +1,13 @@
 {
   "dependencies": {
     "firebase-tools": "^11.1.0",
+    "mustache": "^4.2.0",
     "npm": "^8.12.1"
   },
   "devDependencies": {
     "@types/node": "^20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
     "csv": "^6.3.1",
     "typescript": "^5.1.3"
   }

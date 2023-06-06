@@ -99,13 +99,24 @@ function processFile() {
     });
 }
 (function () { return __awaiter(void 0, void 0, void 0, function () {
-    var records, recordsJSON;
+    var menu2DArray, objectMan, recordsJSON;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0: return [4 /*yield*/, processFile()];
             case 1:
-                records = _a.sent();
-                recordsJSON = JSON.stringify(records);
+                menu2DArray = _a.sent();
+                objectMan = {};
+                menu2DArray.forEach(function (array) {
+                    var key = array[0];
+                    var value = {
+                        small: array[1],
+                        medium: array[2],
+                        large: array[3],
+                        xLarge: array[4],
+                    };
+                    objectMan[key] = value;
+                });
+                recordsJSON = JSON.stringify(objectMan);
                 return [4 /*yield*/, (0, promises_1.writeFile)("menu.json", recordsJSON)];
             case 2:
                 _a.sent();
