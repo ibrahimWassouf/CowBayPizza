@@ -1,10 +1,762 @@
-<section id="cheese" class="sub-card">
-<h6>{{'1 Topping'.small}}</h6>
-<p>Just cheesy goodness.</p>
-<ul>
-  <li>{{Cheese.small}}(S)</li>
-  <li>{{Cheese.medium}}(M)</li>
-  <li>{{Cheese.large}}(L)</li>
-  <li>{{Cheese.xLarge}}(XL)</li>
-</ul>
-</section>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cow Bay Pizza</title>
+    <link rel="icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="./css/style.css" \ />
+    <meta charset="utf-8" \ />
+    <meta name="viewport" content="width=device-width, initial-scale=1" \ />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+      \
+    />
+  </head>
+
+  <body>
+    <header class="sticky-top">
+      <nav id="main-nav" class="navbar navbar-expand-lg navbar-dark bg-red">
+        <section class="container-fluid">
+          <a href="#" class="navbar-brand" style="font-size: 1rem">
+            <img
+              src="./img/Pizza-Slice-Profile.png"
+              alt="company logo of a cartoon pizza slice with pepperoni, basil, and spices"
+              \
+            />
+            Cow Bay Pizza and Variety</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target=".collapse"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </nav>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"
+        integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+    </header>
+
+    <main>
+      <section id="contact">
+        <img
+          id="logo"
+          src="./img/Pizza-Slice-Profile.png"
+          alt="logo of pepperoni pizza slice with a flat design"
+        />
+        <article id="contact-text">
+          <p>
+            388 Cow Bay Road <br \ />
+            902.404.2929 | 902.463.1111 <br \ />
+            <br \ />
+            Business Hours: <br \ />
+            Monday to Thursday 3pm-8pm <br \ />
+            Friday to Saturday 3pm-9pm <br \ />
+            Sunday 3pm-8pm <br \ />
+          </p>
+
+          <section id="social-media">
+            <a target="_blank" href="https://www.facebook.com/CowBayPizza"
+              ><img id="fb" src="./img/f_logo_RGB-Blue_72.png" \
+            /></a>
+            <a target="_blank" href="https://www.instagram.com/cowbaypizza/"
+              ><img
+                id="instagram"
+                src="./img/Instagram_Glyph_Gradient copy.png"
+                \
+            /></a>
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@cowbaypizza?is_from_webapp=1&sender_device=pc"
+              ><img
+                id="tiktok"
+                src="./img/5584538_shubhambhatia_social media_thevectorframe_tik tok_tiktok_icon.png"
+                \
+            /></a>
+          </section>
+        </article>
+      </section>
+
+      <div id="bg-img-div"></div>
+
+      <div id="location-header"><h2>Check Us Out!</h2></div>
+      <section class="map-container" id="location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3296.6637256683894!2d-63.469708149919576!3d44.61281137060578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b5a3d0f044947f3%3A0x6e227977407a4e4b!2sCow%20Bay%20Pizza%20and%20Variety!5e0!3m2!1sen!2sca!4v1654275601323!5m2!1sen!2sca"
+          width="400"
+          height="350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <blockquote
+          class="tiktok-embed"
+          cite="https://www.tiktok.com/@cowbaypizza"
+          data-unique-id="cowbaypizza"
+          data-embed-type="creator"
+          style="max-width: 700px; min-height: 500px"
+        >
+          <section>
+            <a
+              target="_blank"
+              href="https://www.tiktok.com/@cowbaypizza?refer=creator_embed"
+              >@cowbaypizza</a
+            >
+          </section>
+        </blockquote>
+      </section>
+
+      <section id="menu">
+        <h1 id="menu-title">Menu</h1>
+        <ul id="menu-nav" class="nav nav-fill nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#pizza-card">Pizza</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ham-sub-card">Hamburger & Subs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#appetizer-card">Appetizers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#donair-card">Donairs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#chicken-card">Chicken & Shawarma</a>
+          </li>
+        </ul>
+        <section id="pizza-card" class="card border rounded-4">
+          <section class="card-body">
+            <h3 class="card-title"><span>Pizza</span></h3>
+            <p>
+              Regular Topping: Pepperoni, Salami, Mushroom, Bacon, Hamburger,
+              Onions, Green Pepper
+            </p>
+            <p>
+              Specialty Topping: Donair, Ham, Italian Sausage, Black Olives,
+              Tomatoes, Hot Peppers, Pineapple
+            </p>
+            <script id="cheese-card" type="text/x-handlebars-template">
+              <section id="cheese" class="sub-card">
+                <h6>{{Cheese.title}}</h6>
+                <p>Just cheesy goodness.</p>
+                <ul>
+                  <li>{{Cheese.small}}(S)</li>
+                  <li>{{Cheese.medium}}(M)</li>
+                  <li>{{Cheese.large}}(L)</li>
+                  <li>{{Cheese.xLarge}}(XL)</li>
+                </ul>
+              </section>
+            </script>
+            <section id="1-topping" class="sub-card">
+              <h6>{{1_topping.title}}</h6>
+              <p>Add any Regular Topping for an extra flavour to your pizza.</p>
+              <ul>
+                <li>{{1_topping.small}}(S)</li>
+                <li>{{1_topping.medium}}(M)</li>
+                <li>{{1_topping.large}}(L)</li>
+                <li>{{1_toppping.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="2-topping" class="sub-card">
+              <h6>{{2_topping.title}}</h6>
+              <p>Add any two Regular toppings to make your pizza just right.</p>
+              <ul>
+                <li>{{2_topping.small}}(S)</li>
+                <li>{{2_topping.medium}}(M)</li>
+                <li>{{2_topping.large}(L)</li>
+                <li>{{2_topping.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="3-topping" class="sub-card">
+              <h6>{{3_topping.title}}</h6>
+              <p>
+                You're a pizza connoissieur. Add any three Regular toppings.
+              </p>
+              <ul>
+                <li>{{3_topping.small}}(S)</li>
+                <li>{{3_topping.medium}}(M)</li>
+                <li>{{3_topping.large}}(L)</li>
+                <li>{{3_topping.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="4-topping" class="sub-card">
+              <h6>{{4_topping.title}}</h6>
+              <p>
+                Add any four Regular toppings. This is pizza engineering
+                science.
+              </p>
+              <ul>
+                <li>{{4_topping.small}}(S)</li>
+                <li>{{4_topping.medium}}(M)</li>
+                <li>{{4_topping.large}}(L)</li>
+                <li>{{4_topping.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="the-works" class="sub-card">
+              <h6>{{works.title}}</h6>
+              <p>
+                All seven Regular toppings for a great mix of veg and meat.
+                Pepperoni, salami, mushroom, bacon, hamburger, onions, and green
+                pepper.
+              </p>
+              <ul>
+                <li>{{works.small}}(S)</li>
+                <li>{{works.medium}}(M)</li>
+                <li>{{works.large}}(L)</li>
+                <li>{{works.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="meat-lovers" class="sub-card">
+              <h6>{{meatLovers.title}}</h6>
+              <p>
+                No veg, just good meat. Pepperoni, salami, bacon, and hamburger.
+              </p>
+              <ul>
+                <li>{{meatLovers.small}}(S)</li>
+                <li>{{meatLovers.medium}}(M)</li>
+                <li>{{meatLovers.large}}(L)</li>
+                <li>{{meatLovers.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="meat-lovers-supreme" class="sub-card">
+              <h6>{{meatLoversSupreme.title}}</h6>
+              <p>
+                Everything great about a meat lovers topped with extra Donair,
+                ham, and italian sausage.
+              </p>
+              <ul>
+                <li>{{meatLoversSupreme.small}}(S)</li>
+                <li>{{meatLoversSupreme.medium}}(M)</li>
+                <li>{{meatLoversSupreme.large}}(L)</li>
+                <li>{{meatLoversSupreme.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="veggie" class="sub-card">
+              <h6>{{veggie.title}}</h6>
+              <p>
+                A light and comforting pizza with mushroom, onions, green
+                Pepper, tomatoes, and black olives.
+              </p>
+              <ul>
+                <li>{{veggie.small}}(S)</li>
+                <li>{{veggie.medium}}(M)</li>
+                <li>{{veggie.large}}(L)</li>
+                <li>{{veggie.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="greek" class="sub-card">
+              <h6>{{greek.title}}</h6>
+              <p>
+                Hearty and healthy pizza for your mediterranean desires made
+                with Feta cheese, onions, green peppers, tomatoes, and black
+                olives.
+              </p>
+              <ul>
+                <li>{{greek.small}}(S)</li>
+                <li>{{greek.medium}}(M)</li>
+                <li>{{greek.large}}(L)</li>
+                <li>{{greek.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="hawaian" class="sub-card">
+              <h6>{{hawaiian.title}}</h6>
+              <p>
+                Block out the haters with the mouthwatering sweet and savoury
+                ham and pineapple pizza.
+              </p>
+              <ul>
+                <li>{{hawaiian.small}}(S)</li>
+                <li>{{hawaiian.medium}}(M)</li>
+                <li>{{hawaiian.large}}(L)</li>
+                <li>{{hawaiian.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="donair-pizza" class="sub-card">
+              <h6>{{donairPizza.title}}</h6>
+              <p>
+                A meaty pizza made with garlic butter spread topped with local
+                Donair meat, onions, and tomatoes with thick donair sauce on the
+                side.
+              </p>
+              <ul>
+                <li>{{donairPizza.small}}(S)</li>
+                <li>{{donairPizza.medium}}(M)</li>
+                <li>{{donairPizza.large}}(L)</li>
+                <li>{{donairPizza.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="bbq-chicken" class="sub-card">
+              <h6>{{bbq.title}}</h6>
+              <p>
+                A mix of our in-house pizza sauce and BBQ sauce topped with
+                zesty chicken and cheese.
+              </p>
+              <ul>
+                <li>{{bbq.small}}(S)</li>
+                <li>{{bbq.medium}}(M)</li>
+                <li>{{bbq.large}}(L)</li>
+                <li>{{bbq.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="alfredo-chicken" class="sub-card">
+              <h6>{{alfredo.title}}</h6>
+              <p>
+                Skip the red sauce and try our pizza with rich and creamy
+                Alfredo sauce, topped with zesty chicken and cheese.
+              </p>
+              <ul>
+                <li>{{alfredo.small}}(S)</li>
+                <li>{{alfredo.medium}}(M)</li>
+                <li>{{alfredo.large}}(L)</li>
+                <li>{{alfredo.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="garlic-fingers" class="sub-card">
+              <h6>{{garlicFingers.title}}</h6>
+              <p>Buttery garlic spread on a pizza pie topped with cheese.</p>
+              <ul>
+                <li>{{garlicFingers.small}}(S)</li>
+                <li>{{garlicFingers.medium}}(M)</li>
+                <li>{{garlicFingers.large}}(L)</li>
+                <li>{{garlicFingers.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="extra-cheese-pizza" class="sub-card">
+              <h6>{{extraCheese.title}}</h6>
+              <p>Add to your pizza for extra cheesy goodness.</p>
+              <ul>
+                <li>{{extraCheese.small}}(S)</li>
+                <li>{{extraCheese.medium}}(M)</li>
+                <li>{{extraCheese.large}}(L)</li>
+                <li>{{extraCheese.xLarge}}(XL)</li>
+              </ul>
+            </section>
+
+            <section id="extra-topping" class="sub-card">
+              <h6>{{extraTopping.title}}</h6>
+              <p>Add an extra topping to customize your pizza.</p>
+              <ul>
+                <li>{{extraTopping.small}}(S)</li>
+                <li>{{extraTopping.medium}}(M)</li>
+                <li>{{extraTopping.large}}(L)</li>
+                <li>{{extraTopping.xLarge}}(XL)</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+
+        <section id="ham-sub-card" class="card border rounded-4">
+          <section class="card-body">
+            <h3>Hamburger & Subs</h3>
+            <section id="hamburger" class="sub-card">
+              <h6>{hamburger.title}</h6>
+              <p>
+                Juicy burger with fresh lettuce, tomatoes, and onions all within
+                a pillow-soft bun.
+              </p>
+              <ul>
+                <li>{{hamburger.small}}</li>
+              </ul>
+            </section>
+
+            <section id="hamburger-platter" class="sub-card">
+              <h6>{{hamburgerPlatter.title}}</h6>
+              <p>Our juicy burger with deep-fried fries.</p>
+              <ul>
+                <li>{{hamburgerPlatter.small}}</li>
+              </ul>
+            </section>
+
+            <section id="cheeseburger" class="sub-card">
+              <h6>{{cheeseBurger.title}}</h6>
+              <p>
+                Our juicy patty layered with melted cheddar cheese and fresh
+                lettuce, tomatoes, and onions
+              </p>
+              <ul>
+                <li>{{cheeseBurger.small}}</li>
+              </ul>
+            </section>
+
+            <section id="cheeseburger-platter" class="sub-card">
+              <h6>{{cheeseBurgerPlatter.title}}</h6>
+              <p>Our cheesy cheeseburger with deep-fried fries</p>
+              <ul>
+                <li>{{cheeseBurgerPlatter.small}}</li>
+              </ul>
+            </section>
+
+            <section id="chickenburger" class="sub-card">
+              <h6>{{chickenBurger.title}}</h6>
+              <p>
+                Deep-fried chicken patty topped with creamy mayo and dill
+                pickle.
+              </p>
+              <ul>
+                <li>{{chickenBurger.small}}</li>
+              </ul>
+            </section>
+
+            <section id="chickenburger-platter" class="sub-card">
+              <h6>{{chickenBurgerPlatter.title}}</h6>
+              <p>Our deep-fried chicken burger with fries on the side.</p>
+              <ul>
+                <li>{{chickenBurgerPlatter.small}}</li>
+              </ul>
+            </section>
+
+            <section id="cold-sub" class="sub-card">
+              <h6>{{coldCut.title}}</h6>
+              <p>Sub made with our Deli-cious pepperoni, salami, and ham</p>
+              <ul>
+                <li>{{coldCut.small}}(M)</li>
+                <li>{{coldCut.medium}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="ham-sub" class="sub-card">
+              <h6>{{hamSalami.title}}</h6>
+              <p>Keep it classy and simple with a ham and salami sub.</p>
+              <ul>
+                <li>{{hamSalami.small}}(M)</li>
+                <li>{{hamSalami.medium}}(L)</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+
+        <section id="appetizer-card" class="card border rounded-4">
+          <section class="card-body">
+            <h3>Appetizers</h3>
+
+            <section id="poutine" class="sub-card">
+              <h6>{{poutine.title}}</h6>
+              <p>
+                Deep-fried fries topped with mozzarella cheese, cheese curds,
+                and thick, rich gravy.
+              </p>
+              <ul>
+                <li>{{poutine.small}}(M)</li>
+                <li>{{poutine.medium}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="pizza-pocket" class="sub-card">
+              <h6>{{pizzaPocket.title}}</h6>
+              <p>
+                Huge deep-fried or baked calzone filled with any combination of
+                our Regular pizza toppings.
+              </p>
+              <ul>
+                <li>{{pizzaPocket.small}}</li>
+              </ul>
+            </section>
+
+            <section id="fries" class="sub-card">
+              <h6>{{fries.title}}</h6>
+              <p>Golden, deep-fried fries.</p>
+              <ul>
+                <li>{{fries.small}}(M)</li>
+                <li>{{fires.medium}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="onion-rings" class="sub-card">
+              <h6>{{onionRings.title}}</h6>
+              <p>Deep-fried crispy crunchy onion rings.</p>
+              <ul>
+                <li>{{onionRings.small}}(M)</li>
+                <li>{{onionRings.medium}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="nachos" class="sub-card">
+              <h6>{{nacho.title}}</h6>
+              <p>
+                Crunchy nachos topped with mozzarella cheese, green pepper,
+                tomatoes, black olives, hot peppers, more mozzarella cheese, and
+                cheddar cheese.
+              </p>
+              <ul>
+                <li>{{nacho.small}}</li>
+              </ul>
+            </section>
+
+            <section id="greek-salad" class="sub-card">
+              <h6>{{greekSalad.title}}</h6>
+              <p>
+                Hearty greek salad made of feta cheese, lettuce, cucumber,
+                tomatoes, black olives, and onions layered in our special zesty
+                salad dressing.
+              </p>
+              <ul>
+                <li>{{greekSalad.small}}</li>
+              </ul>
+            </section>
+
+            <section id="caesar-salad" class="sub-card">
+              <h6>{{caesarSalad.title}}</h6>
+              <p>
+                Tossed salad made of romaine lettuce, croutons, and crunchy
+                bacon bits topped with bright Caesar salad dressing and
+                mozzarella cheese.
+              </p>
+              <ul>
+                <li>{{caesarSalad.small}}</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+
+        <section id="donair-card" class="card border rounded-4">
+          <section class="card-body">
+            <h3>Donairs</h3>
+
+            <section id="donair-wrap" class="sub-card">
+              <h6>{{donair.title}}</h6>
+              <p>
+                Local spicy, flavourful donair meat on a pita bread topped with
+                onions and tomatoes.
+              </p>
+              <ul>
+                <li>{{donair.small}}(S)</li>
+                <li>{{donair.medium}}(M)</li>
+                <li>{{donair.large}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="donair-platter" class="sub-card">
+              <h6>{{donairPlatter.title}}</h6>
+              <p>Our spicy donair meat with deep-fried fries on the side.</p>
+              <ul>
+                <li>{{donairPlatter.small}}(M)</li>
+                <li>{{donairPlatter.medium}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="donair-poutine" class="sub-card">
+              <h6>{{donairPoutine.title}}</h6>
+              <p>salty, rich poutine topped with extra juicy donair meat.</p>
+              <ul>
+                <li>{{donairPoutine.small}}(M)</li>
+                <li>{{donairPoutine.medium}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="donair-pocket" class="sub-card">
+              <h6>{{donairPocket.title}}</h6>
+              <p>
+                Our huge calzone filled with garlic butter, spicy donair,
+                mozzarella cheese, onions, and tomatoes with thick donair sauce
+                on the side.
+              </p>
+              <ul>
+                <li>{{donairPocket.small}}</li>
+              </ul>
+            </section>
+
+            <section id="donair-eggroll" class="sub-card">
+              <h6>{{donairEggroll.title}}</h6>
+              <p>
+                rolled then deep-fried crunchy eggrolls stuffed with our spicy
+                donair meat.
+              </p>
+              <ul>
+                <li>{{donairEggroll.small}}(2 pcs)</li>
+                <li>{{donairEggroll.medium}}(4 pcs)</li>
+              </ul>
+            </section>
+
+            <section id="donair-sub" class="sub-card">
+              <h6>{{donairSub.title}}</h6>
+              <p>
+                Sub spread with garlic butter then filled with spicy donair
+                meat, tomatoes, and onions.
+              </p>
+              <ul>
+                <li>{{donairSub.small}}(M)</li>
+                <li>{{donairSub.medium}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="extra-cheese-donair" class="sub-card">
+              <h6>{{extraCheeseDonair.title}}</h6>
+              <p>
+                Add extra cheese to your donair order for extra cheesy goodness.
+              </p>
+              <ul>
+                <li>{{extraCheeseDonair.small}}(S)</li>
+                <li>{{extraCheeseDonair.medium}}(M)</li>
+                <li>{{extraCheeseDonair.large}}(L)</li>
+              </ul>
+            </section>
+
+            <section id="extra-sauce" class="sub-card">
+              <h6>{{donairSauce.title}}</h6>
+              <p>Add an extra cup of our thick,sweet donair sauce.</p>
+              <ul>
+                <li>{{donairSauce.small}}(S)</li>
+                <li>{{donairSauce.medium}}(M)</li>
+                <li>{{donairSauce.large}}(L)</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+
+        <section id="chicken-card" class="card border rounded-4">
+          <section class="card-body">
+            <h3>Chicken & Shawarma</h3>
+
+            <section id="chicken-wings" class="sub-card">
+              <h6>{{wings.title}}</h6>
+              <p>
+                10 pieces deep-fried chicken wings with Hot sauce or honey
+                garlic.
+              </p>
+              <ul>
+                <li>{{wings.small}}</li>
+              </ul>
+            </section>
+
+            <section id="chicken-tenders" class="sub-card">
+              <h6> {{tenders.title}}(3pcs)</h6>
+              <p>
+                Deep-fried crispy chicken strips and fries. Instant classic.
+              </p>
+              <ul>
+                <li>{{tenders.small}}</li>
+              </ul>
+            </section>
+
+            <section id="chicken-tenders-lg" class="sub-card">
+              <h6>{{tendersPack.title}} (10pcs)</h6>
+              <p>
+                10 pieces of crispy chicken tenders on a bed of fries to fill
+                everyones' belly.
+              </p>
+              <ul>
+                <li>{{tendersPack.small}}</li>
+              </ul>
+            </section>
+
+            <section id="shawarma-wrap" class="sub-card">
+              <h6>{{shawarma.title}}</h6>
+              <p>
+                Grilled shawarma marinaded in our special seasoned blend wrapped
+                in a pita filled with garlic spread, dill pickle, pickled
+                turnips, tomatoes, and lettuce.
+              </p>
+              <ul>
+                <li>{{shawarma.small}}</li>
+              </ul>
+            </section>
+
+            <section id="shawarma-eggroll" class="sub-card">
+              <h6>{{shawarmaEggroll.title}}</h6>
+              <p>
+                Our home-made shawarma stuffed in deepfried crunchy eggrolls.
+              </p>
+              <ul>
+                <li>{{shawarmaEggroll.small}}(2pcs)</li>
+              </ul>
+            </section>
+          </section>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <p>cowbaypizza@hotmail.com</p>
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        , Cow Bay Pizza and Variety
+      </p>
+
+      <section id="social-media-footer">
+        <a target="_blank" href="https://www.facebook.com/CowBayPizza"
+          ><img id="fb-footer" src="./img/f_logo_RGB-White_58.png" \
+        /></a>
+        <a target="_blank" href="https://www.instagram.com/cowbaypizza/"
+          ><img id="instagram-footer" src="./img/Instagram_Glyph_White.png" \
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.tiktok.com/@cowbaypizza?is_from_webapp=1&sender_device=pc"
+          ><img id="tiktok-footer" src="./img/icons8-tiktok-48.png" \
+        /></a>
+      </section>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0"
+      nonce="ynJUawNs"
+    ></script>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+<
