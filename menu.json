@@ -1,268 +1,318 @@
 {
   "Cheese": {
-    "small": "Cheese Pizza",
-    "medium": "10.99",
-    "large": "13.99",
-    "xLarge": "19.99"
-  },
-  "1_topping": {
-    "small": "1 Topping Pizza",
-    "medium": "11.99",
-    "large": "14.99",
-    "xLarge": "21.99"
-  },
-  "2_topping": {
-    "small": "2 Topping Pizza",
-    "medium": "12.5",
-    "large": "15.99",
+    "title": "Cheese Pizza",
+    "small": "10.99",
+    "medium": "13.99",
+    "large": "19.99",
     "xLarge": "22.99"
   },
-  "3_topping": {
-    "small": "3 Topping Pizza",
-    "medium": "12.99",
-    "large": "16.99",
+  "1_topping": {
+    "title": "1 Topping Pizza",
+    "small": "11.99",
+    "medium": "14.99",
+    "large": "21.99",
     "xLarge": "23.99"
   },
-  "4_topping": {
-    "small": "4 Topping Pizza",
-    "medium": "13.99",
-    "large": "17.99",
+  "2_topping": {
+    "title": "2 Topping Pizza",
+    "small": "12.5",
+    "medium": "15.99",
+    "large": "22.99",
     "xLarge": "24.99"
+  },
+  "3_topping": {
+    "title": "3 Topping Pizza",
+    "small": "12.99",
+    "medium": "16.99",
+    "large": "23.99",
+    "xLarge": "25.99"
+  },
+  "4_topping": {
+    "title": "4 Topping Pizza",
+    "small": "13.99",
+    "medium": "17.99",
+    "large": "24.99",
+    "xLarge": "28.5"
   },
   "works": {
-    "small": "The Works Pizza",
-    "medium": "14.99",
-    "large": "19.99",
-    "xLarge": "26.5"
+    "title": "The Works Pizza",
+    "small": "14.99",
+    "medium": "19.99",
+    "large": "26.5",
+    "xLarge": "30.99"
   },
   "meatLovers": {
-    "small": "Meat Lovers Pizza",
-    "medium": "14.75",
-    "large": "19.99",
-    "xLarge": "26.5"
+    "title": "Meat Lovers Pizza",
+    "small": "14.75",
+    "medium": "19.99",
+    "large": "26.5",
+    "xLarge": "30.99"
   },
   "meatLoversSupreme": {
-    "small": "Meat Lovers Supreme Pizza",
-    "medium": "16.75",
-    "large": "25.99",
-    "xLarge": "32.99"
+    "title": "Meat Lovers Supreme Pizza",
+    "small": "16.75",
+    "medium": "25.99",
+    "large": "32.99",
+    "xLarge": "38.99"
   },
   "veggie": {
-    "small": "Veggie Pizza",
-    "medium": "12.99",
-    "large": "18.99",
-    "xLarge": "24.99"
+    "title": "Veggie Pizza",
+    "small": "12.99",
+    "medium": "18.99",
+    "large": "24.99",
+    "xLarge": "28.99"
   },
   "greek": {
-    "small": "Greek Pizza",
-    "medium": "14.99",
-    "large": "19.5",
-    "xLarge": "26.99"
+    "title": "Greek Pizza",
+    "small": "14.99",
+    "medium": "19.5",
+    "large": "26.99",
+    "xLarge": "32.99"
   },
   "hawaiian": {
-    "small": "Hawaiian Pizza",
-    "medium": "13.99",
-    "large": "18.5",
-    "xLarge": "24.99"
+    "title": "Hawaiian Pizza",
+    "small": "13.99",
+    "medium": "18.5",
+    "large": "24.99",
+    "xLarge": "29.99"
   },
   "donairPizza": {
-    "small": "Donair Pizza",
-    "medium": "13.99",
-    "large": "20.99",
-    "xLarge": "26.99"
+    "title": "Donair Pizza",
+    "small": "13.99",
+    "medium": "20.99",
+    "large": "26.99",
+    "xLarge": "32.99"
   },
   "bbq": {
-    "small": "BBQ chicken",
-    "medium": "13.99",
-    "large": "20.99",
-    "xLarge": "27.5"
+    "title": "BBQ chicken",
+    "small": "13.99",
+    "medium": "20.99",
+    "large": "27.5",
+    "xLarge": "32.99"
   },
   "alfredo": {
-    "small": "Chicken Alfredo",
-    "medium": "13.99",
-    "large": "20.99",
-    "xLarge": "27.5"
+    "title": "Chicken Alfredo",
+    "small": "13.99",
+    "medium": "20.99",
+    "large": "27.5",
+    "xLarge": "32.99"
   },
   "garlicFingers": {
-    "small": "Garlic Fingers",
-    "medium": "10.99",
-    "large": "14.99",
-    "xLarge": "19.99"
+    "title": "Garlic Fingers",
+    "small": "10.99",
+    "medium": "14.99",
+    "large": "19.99",
+    "xLarge": "23.99"
   },
   "extraCheese": {
-    "small": "Extra Cheese",
-    "medium": "3.5",
-    "large": "4.99",
-    "xLarge": "5.99"
+    "title": "Extra Cheese",
+    "small": "3.5",
+    "medium": "4.99",
+    "large": "5.99",
+    "xLarge": "6.99"
   },
   "extraTopping": {
-    "small": "Extra Topping",
-    "medium": "2.5",
-    "large": "2.99",
-    "xLarge": "3.99"
+    "title": "Extra Topping",
+    "small": "2.5",
+    "medium": "2.99",
+    "large": "3.99",
+    "xLarge": "4.99"
   },
   "hamburger": {
-    "small": "Hamburger",
-    "medium": "7.99",
+    "title": "Hamburger",
+    "small": "7.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "hamburgerPlatter": {
-    "small": "Hamburger Platter",
-    "medium": "11.99",
+    "title": "Hamburger Platter",
+    "small": "11.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "cheeseBurger": {
-    "small": "Cheeseburger",
-    "medium": "8.99",
+    "title": "Cheeseburger",
+    "small": "8.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "cheeseBurgerPlatter": {
-    "small": "Cheeseburger Platter",
-    "medium": "12.99",
+    "title": "Cheeseburger Platter",
+    "small": "12.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "chickenBurger": {
-    "small": "Chicken Burger",
-    "medium": "7.99",
+    "title": "Chicken Burger",
+    "small": "7.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "chickenBurgerPlatter": {
-    "small": "Chicken Burger Platter",
-    "medium": "12.99",
+    "title": "Chicken Burger Platter",
+    "small": "12.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "coldCut": {
-    "small": "Cold Cut Sub",
-    "medium": "10.5",
-    "large": "13.99",
+    "title": "Cold Cut Sub",
+    "small": "10.5",
+    "medium": "13.99",
+    "large": "",
     "xLarge": ""
   },
   "hamSalami": {
-    "small": "Ham and Salami",
-    "medium": "9.5",
-    "large": "12.99",
+    "title": "Ham and Salami",
+    "small": "9.5",
+    "medium": "12.99",
+    "large": "",
     "xLarge": ""
   },
   "poutine": {
-    "small": "Poutine",
-    "medium": "9.99",
-    "large": "12.99",
+    "title": "Poutine",
+    "small": "9.99",
+    "medium": "12.99",
+    "large": "",
     "xLarge": ""
   },
   "pizzaPocket": {
-    "small": "Pizza Pocket",
-    "medium": "16.99",
+    "title": "Pizza Pocket",
+    "small": "16.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "fries": {
-    "small": "French Fries",
-    "medium": "6.99",
-    "large": "9.99",
+    "title": "French Fries",
+    "small": "6.99",
+    "medium": "9.99",
+    "large": "",
     "xLarge": ""
   },
   "onionRings": {
-    "small": "Onion Rings",
-    "medium": "7.99",
-    "large": "10.99",
+    "title": "Onion Rings",
+    "small": "7.99",
+    "medium": "10.99",
+    "large": "",
     "xLarge": ""
   },
-  "nachos": { "small": "Nachos", "medium": "20.99", "large": "", "xLarge": "" },
+  "nachos": {
+    "title": "Nachos",
+    "small": "20.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
   "greekSalad": {
-    "small": "Greek Salad",
-    "medium": "13.99",
+    "title": "Greek Salad",
+    "small": "13.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "caesar": {
-    "small": "Caesar Salad",
-    "medium": "11.99",
+    "title": "Caesar Salad",
+    "small": "11.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "donair": {
-    "small": "Donair Wrap",
-    "medium": "9.99",
-    "large": "11.99",
-    "xLarge": "13.99"
+    "title": "Donair Wrap",
+    "small": "9.99",
+    "medium": "11.99",
+    "large": "13.99",
+    "xLarge": ""
   },
   "donairPlatter": {
-    "small": "Donair Platter",
-    "medium": "13.99",
-    "large": "16.99",
-    "xLarge": ""
-  },
-  "donairPoutine": {
-    "small": "Donair Poutine",
-    "medium": "13.99",
-    "large": "16.99",
-    "xLarge": ""
-  },
-  "donairPocket": {
-    "small": "Donair Pocket",
+    "title": "Donair Platter",
+    "small": "13.99",
     "medium": "16.99",
     "large": "",
     "xLarge": ""
   },
+  "donairPoutine": {
+    "title": "Donair Poutine",
+    "small": "13.99",
+    "medium": "16.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "donairPocket": {
+    "title": "Donair Pocket",
+    "small": "16.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
   "donairEggrolls": {
-    "small": "Donair Egg rolls",
-    "medium": "4.99",
-    "large": "8.99",
+    "title": "Donair Egg rolls",
+    "small": "4.99",
+    "medium": "8.99",
+    "large": "",
     "xLarge": ""
   },
   "donairSub": {
-    "small": "Donair Sub",
-    "medium": "12.5",
-    "large": "14.99",
+    "title": "Donair Sub",
+    "small": "12.5",
+    "medium": "14.99",
+    "large": "",
     "xLarge": ""
   },
   "donairExtraCheese": {
-    "small": "Extra Cheese",
-    "medium": "3",
-    "large": "3.5",
-    "xLarge": "4.5"
+    "title": "Extra Cheese",
+    "small": "3",
+    "medium": "3.5",
+    "large": "4.5",
+    "xLarge": ""
   },
   "donairSauce": {
-    "small": "Extra Donair Sauce",
-    "medium": "3",
-    "large": "3.5",
-    "xLarge": "4.5"
+    "title": "Extra Donair Sauce",
+    "small": "3",
+    "medium": "3.5",
+    "large": "4.5",
+    "xLarge": ""
   },
   "wings": {
-    "small": "Chicken Wings",
-    "medium": "13.5",
+    "title": "Chicken Wings",
+    "small": "13.5",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "tenders": {
-    "small": "Chicken Tender",
-    "medium": "13.99",
+    "title": "Chicken Tender",
+    "small": "13.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "tendersPack": {
-    "small": "Chicken Tenders Party Pack",
-    "medium": "33.99",
+    "title": "Chicken Tenders Party Pack",
+    "small": "33.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "shawarma": {
-    "small": "Shawarma Wrap",
-    "medium": "11.99",
+    "title": "Shawarma Wrap",
+    "small": "11.99",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
   "shawarmaEggroll": {
-    "small": "Shawarma Eggroll",
-    "medium": "5.5",
+    "title": "Shawarma Eggroll",
+    "small": "5.5",
+    "medium": "",
     "large": "",
     "xLarge": ""
   },
-  "": { "small": "", "medium": "", "large": "", "xLarge": "" }
+  "": { "title": "", "small": "", "medium": "", "large": "", "xLarge": "" }
 }

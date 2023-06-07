@@ -21,10 +21,11 @@ async function processFile() {
   menu2DArray.forEach((array) => {
     const key = array[0];
     const value = {
-      small: array[1],
-      medium: array[2],
-      large: array[3],
-      xLarge: array[4],
+      title: array[1],
+      small: array[2],
+      medium: array[3],
+      large: array[4],
+      xLarge: array[5],
     };
     objectMan[key] = value;
   });
