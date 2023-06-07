@@ -162,7 +162,6 @@
               Specialty Topping: Donair, Ham, Italian Sausage, Black Olives,
               Tomatoes, Hot Peppers, Pineapple
             </p>
-            <script id="cheese-card" type="text/x-handlebars-template">
               <section id="cheese" class="sub-card">
                 <h6>{{Cheese.title}}</h6>
                 <p>Just cheesy goodness.</p>
@@ -173,7 +172,6 @@
                   <li>{{Cheese.xLarge}}(XL)</li>
                 </ul>
               </section>
-            </script>
             <section id="1-topping" class="sub-card">
               <h6>{{1_topping.title}}</h6>
               <p>Add any Regular Topping for an extra flavour to your pizza.</p>
@@ -181,7 +179,7 @@
                 <li>{{1_topping.small}}(S)</li>
                 <li>{{1_topping.medium}}(M)</li>
                 <li>{{1_topping.large}}(L)</li>
-                <li>{{1_toppping.xLarge}}(XL)</li>
+                <li>{{1_topping.xLarge}}(XL)</li>
               </ul>
             </section>
 
@@ -191,7 +189,7 @@
               <ul>
                 <li>{{2_topping.small}}(S)</li>
                 <li>{{2_topping.medium}}(M)</li>
-                <li>{{2_topping.large}(L)</li>
+                <li>{{2_topping.large}}(L)</li>
                 <li>{{2_topping.xLarge}}(XL)</li>
               </ul>
             </section>
@@ -390,7 +388,7 @@
           <section class="card-body">
             <h3>Hamburger & Subs</h3>
             <section id="hamburger" class="sub-card">
-              <h6>{hamburger.title}</h6>
+              <h6>{{hamburger.title}}</h6>
               <p>
                 Juicy burger with fresh lettuce, tomatoes, and onions all within
                 a pillow-soft bun.
@@ -498,7 +496,7 @@
               <p>Golden, deep-fried fries.</p>
               <ul>
                 <li>{{fries.small}}(M)</li>
-                <li>{{fires.medium}}(L)</li>
+                <li>{{fries.medium}}(L)</li>
               </ul>
             </section>
 
@@ -512,14 +510,14 @@
             </section>
 
             <section id="nachos" class="sub-card">
-              <h6>{{nacho.title}}</h6>
+              <h6>{{nachos.title}}</h6>
               <p>
                 Crunchy nachos topped with mozzarella cheese, green pepper,
                 tomatoes, black olives, hot peppers, more mozzarella cheese, and
                 cheddar cheese.
               </p>
               <ul>
-                <li>{{nacho.small}}</li>
+                <li>{{nachos.small}}</li>
               </ul>
             </section>
 
@@ -536,14 +534,14 @@
             </section>
 
             <section id="caesar-salad" class="sub-card">
-              <h6>{{caesarSalad.title}}</h6>
+              <h6>{{caesar.title}}</h6>
               <p>
                 Tossed salad made of romaine lettuce, croutons, and crunchy
                 bacon bits topped with bright Caesar salad dressing and
                 mozzarella cheese.
               </p>
               <ul>
-                <li>{{caesarSalad.small}}</li>
+                <li>{{caesar.small}}</li>
               </ul>
             </section>
           </section>
@@ -597,14 +595,14 @@
             </section>
 
             <section id="donair-eggroll" class="sub-card">
-              <h6>{{donairEggroll.title}}</h6>
+              <h6>{{donairEggrolls.title}}</h6>
               <p>
                 rolled then deep-fried crunchy eggrolls stuffed with our spicy
                 donair meat.
               </p>
               <ul>
-                <li>{{donairEggroll.small}}(2 pcs)</li>
-                <li>{{donairEggroll.medium}}(4 pcs)</li>
+                <li>{{donairEggrolls.small}}(2 pcs)</li>
+                <li>{{donairEggrolls.medium}}(4 pcs)</li>
               </ul>
             </section>
 
@@ -621,14 +619,14 @@
             </section>
 
             <section id="extra-cheese-donair" class="sub-card">
-              <h6>{{extraCheeseDonair.title}}</h6>
+              <h6>{{donairExtraCheese.title}}</h6>
               <p>
                 Add extra cheese to your donair order for extra cheesy goodness.
               </p>
               <ul>
-                <li>{{extraCheeseDonair.small}}(S)</li>
-                <li>{{extraCheeseDonair.medium}}(M)</li>
-                <li>{{extraCheeseDonair.large}}(L)</li>
+                <li>{{donairExtraCheese.small}}(S)</li>
+                <li>{{donairExtraCheese.medium}}(M)</li>
+                <li>{{donairExtraCheese.large}}(L)</li>
               </ul>
             </section>
 

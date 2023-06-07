@@ -1,1 +1,317 @@
-{"﻿Cheese":{"title":"Cheese Pizza","small":"10.99","medium":"13.99","large":"19.99","xLarge":"22.99"},"1_topping":{"title":"1 Topping Pizza","small":"11.99","medium":"14.99","large":"21.99","xLarge":"23.99"},"2_topping":{"title":"2 Topping Pizza","small":"12.50","medium":"15.99","large":"22.99","xLarge":"24.99"},"3_topping":{"title":"3 Topping Pizza","small":"12.99","medium":"16.99","large":"23.99","xLarge":"25.99"},"4_topping":{"title":"4 Topping Pizza","small":"13.99","medium":"17.99","large":"24.99","xLarge":"28.50"},"works":{"title":"The Works Pizza","small":"14.99","medium":"19.99","large":"26.50","xLarge":"30.99"},"meatLovers":{"title":"Meat Lovers Pizza","small":"14.75","medium":"19.99","large":"26.50","xLarge":"30.99"},"meatLoversSupreme":{"title":"Meat Lovers Supreme Pizza","small":"16.75","medium":"25.99","large":"32.99","xLarge":"38.99"},"veggie":{"title":"Veggie Pizza","small":"12.99","medium":"18.99","large":"24.99","xLarge":"28.99"},"greek":{"title":"Greek Pizza","small":"14.99","medium":"19.50","large":"26.99","xLarge":"32.99"},"hawaiian":{"title":"Hawaiian Pizza","small":"13.99","medium":"18.50","large":"24.99","xLarge":"29.99"},"donairPizza":{"title":"Donair Pizza","small":"13.99","medium":"20.99","large":"26.99","xLarge":"32.99"},"bbq":{"title":"BBQ chicken","small":"13.99","medium":"20.99","large":"27.50","xLarge":"32.99"},"alfredo":{"title":"Chicken Alfredo","small":"13.99","medium":"20.99","large":"27.50","xLarge":"32.99"},"garlicFingers":{"title":"Garlic Fingers","small":"10.99","medium":"14.99","large":"19.99","xLarge":"23.99"},"extraCheese":{"title":"Extra Cheese","small":"3.50","medium":"4.99","large":"5.99","xLarge":"6.99"},"extraTopping":{"title":"Extra Topping","small":"2.50","medium":"2.99","large":"3.99","xLarge":"4.99"},"hamburger":{"title":"Hamburger","small":"7.99","medium":"","large":"","xLarge":""},"hamburgerPlatter":{"title":"Hamburger Platter","small":"11.99","medium":"","large":"","xLarge":""},"cheeseBurger":{"title":"Cheeseburger","small":"8.99","medium":"","large":"","xLarge":""},"cheeseBurgerPlatter":{"title":"Cheeseburger Platter","small":"12.99","medium":"","large":"","xLarge":""},"chickenBurger":{"title":"Chicken Burger","small":"7.99","medium":"","large":"","xLarge":""},"chickenBurgerPlatter":{"title":"Chicken Burger Platter","small":"12.99","medium":"","large":"","xLarge":""},"coldCut":{"title":"Cold Cut Sub","small":"10.50","medium":"13.99","large":"","xLarge":""},"hamSalami":{"title":"Ham and Salami","small":"9.50","medium":"12.99","large":"","xLarge":""},"poutine":{"title":"Poutine","small":"9.99","medium":"12.99","large":"","xLarge":""},"pizzaPocket":{"title":"Pizza Pocket","small":"16.99","medium":"","large":"","xLarge":""},"fries":{"title":"French Fries","small":"6.99","medium":"9.99","large":"","xLarge":""},"onionRings":{"title":"Onion Rings","small":"7.99","medium":"10.99","large":"","xLarge":""},"nachos":{"title":"Nachos","small":"20.99","medium":"","large":"","xLarge":""},"greekSalad":{"title":"Greek Salad","small":"13.99","medium":"","large":"","xLarge":""},"caesar":{"title":"Caesar Salad","small":"11.99","medium":"","large":"","xLarge":""},"donair":{"title":"Donair Wrap","small":"9.99","medium":"11.99","large":"13.99","xLarge":""},"donairPlatter":{"title":"Donair Platter","small":"13.99","medium":"16.99","large":"","xLarge":""},"donairPoutine":{"title":"Donair Poutine","small":"13.99","medium":"16.99","large":"","xLarge":""},"donairPocket":{"title":"Donair Pocket","small":"16.99","medium":"","large":"","xLarge":""},"donairEggrolls":{"title":"Donair Egg rolls","small":"4.99","medium":"8.99","large":"","xLarge":""},"donairSub":{"title":"Donair Sub","small":"12.50","medium":"14.99","large":"","xLarge":""},"donairExtraCheese":{"title":"Extra Cheese","small":"3.00","medium":"3.50","large":"4.50","xLarge":""},"donairSauce":{"title":"Extra Donair Sauce","small":"3.00","medium":"3.50","large":"4.50","xLarge":""},"wings":{"title":"Chicken Wings","small":"13.50","medium":"","large":"","xLarge":""},"tenders":{"title":"Chicken Tender","small":"13.99","medium":"","large":"","xLarge":""},"tendersPack":{"title":"Chicken Tenders Party Pack","small":"33.99","medium":"","large":"","xLarge":""},"shawarma":{"title":"Shawarma Wrap","small":"11.99","medium":"","large":"","xLarge":""},"shawarmaEggroll":{"title":"Shawarma Eggroll","small":"5.50","medium":"","large":"","xLarge":""}}
+{
+  "Cheese": {
+    "title": "Cheese Pizza",
+    "small": "10.99",
+    "medium": "13.99",
+    "large": "19.99",
+    "xLarge": "22.99"
+  },
+  "1_topping": {
+    "title": "1 Topping Pizza",
+    "small": "11.99",
+    "medium": "14.99",
+    "large": "21.99",
+    "xLarge": "23.99"
+  },
+  "2_topping": {
+    "title": "2 Topping Pizza",
+    "small": "12.50",
+    "medium": "15.99",
+    "large": "22.99",
+    "xLarge": "24.99"
+  },
+  "3_topping": {
+    "title": "3 Topping Pizza",
+    "small": "12.99",
+    "medium": "16.99",
+    "large": "23.99",
+    "xLarge": "25.99"
+  },
+  "4_topping": {
+    "title": "4 Topping Pizza",
+    "small": "13.99",
+    "medium": "17.99",
+    "large": "24.99",
+    "xLarge": "28.50"
+  },
+  "works": {
+    "title": "The Works Pizza",
+    "small": "14.99",
+    "medium": "19.99",
+    "large": "26.50",
+    "xLarge": "30.99"
+  },
+  "meatLovers": {
+    "title": "Meat Lovers Pizza",
+    "small": "14.75",
+    "medium": "19.99",
+    "large": "26.50",
+    "xLarge": "30.99"
+  },
+  "meatLoversSupreme": {
+    "title": "Meat Lovers Supreme Pizza",
+    "small": "16.75",
+    "medium": "25.99",
+    "large": "32.99",
+    "xLarge": "38.99"
+  },
+  "veggie": {
+    "title": "Veggie Pizza",
+    "small": "12.99",
+    "medium": "18.99",
+    "large": "24.99",
+    "xLarge": "28.99"
+  },
+  "greek": {
+    "title": "Greek Pizza",
+    "small": "14.99",
+    "medium": "19.50",
+    "large": "26.99",
+    "xLarge": "32.99"
+  },
+  "hawaiian": {
+    "title": "Hawaiian Pizza",
+    "small": "13.99",
+    "medium": "18.50",
+    "large": "24.99",
+    "xLarge": "29.99"
+  },
+  "donairPizza": {
+    "title": "Donair Pizza",
+    "small": "13.99",
+    "medium": "20.99",
+    "large": "26.99",
+    "xLarge": "32.99"
+  },
+  "bbq": {
+    "title": "BBQ chicken",
+    "small": "13.99",
+    "medium": "20.99",
+    "large": "27.50",
+    "xLarge": "32.99"
+  },
+  "alfredo": {
+    "title": "Chicken Alfredo",
+    "small": "13.99",
+    "medium": "20.99",
+    "large": "27.50",
+    "xLarge": "32.99"
+  },
+  "garlicFingers": {
+    "title": "Garlic Fingers",
+    "small": "10.99",
+    "medium": "14.99",
+    "large": "19.99",
+    "xLarge": "23.99"
+  },
+  "extraCheese": {
+    "title": "Extra Cheese",
+    "small": "3.50",
+    "medium": "4.99",
+    "large": "5.99",
+    "xLarge": "6.99"
+  },
+  "extraTopping": {
+    "title": "Extra Topping",
+    "small": "2.50",
+    "medium": "2.99",
+    "large": "3.99",
+    "xLarge": "4.99"
+  },
+  "hamburger": {
+    "title": "Hamburger",
+    "small": "7.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "hamburgerPlatter": {
+    "title": "Hamburger Platter",
+    "small": "11.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "cheeseBurger": {
+    "title": "Cheeseburger",
+    "small": "8.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "cheeseBurgerPlatter": {
+    "title": "Cheeseburger Platter",
+    "small": "12.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "chickenBurger": {
+    "title": "Chicken Burger",
+    "small": "7.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "chickenBurgerPlatter": {
+    "title": "Chicken Burger Platter",
+    "small": "12.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "coldCut": {
+    "title": "Cold Cut Sub",
+    "small": "10.50",
+    "medium": "13.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "hamSalami": {
+    "title": "Ham and Salami",
+    "small": "9.50",
+    "medium": "12.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "poutine": {
+    "title": "Poutine",
+    "small": "9.99",
+    "medium": "12.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "pizzaPocket": {
+    "title": "Pizza Pocket",
+    "small": "16.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "fries": {
+    "title": "French Fries",
+    "small": "6.99",
+    "medium": "9.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "onionRings": {
+    "title": "Onion Rings",
+    "small": "7.99",
+    "medium": "10.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "nachos": {
+    "title": "Nachos",
+    "small": "20.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "greekSalad": {
+    "title": "Greek Salad",
+    "small": "13.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "caesar": {
+    "title": "Caesar Salad",
+    "small": "11.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "donair": {
+    "title": "Donair Wrap",
+    "small": "9.99",
+    "medium": "11.99",
+    "large": "13.99",
+    "xLarge": ""
+  },
+  "donairPlatter": {
+    "title": "Donair Platter",
+    "small": "13.99",
+    "medium": "16.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "donairPoutine": {
+    "title": "Donair Poutine",
+    "small": "13.99",
+    "medium": "16.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "donairPocket": {
+    "title": "Donair Pocket",
+    "small": "16.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "donairEggrolls": {
+    "title": "Donair Egg rolls",
+    "small": "4.99",
+    "medium": "8.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "donairSub": {
+    "title": "Donair Sub",
+    "small": "12.50",
+    "medium": "14.99",
+    "large": "",
+    "xLarge": ""
+  },
+  "donairExtraCheese": {
+    "title": "Extra Cheese",
+    "small": "3.00",
+    "medium": "3.50",
+    "large": "4.50",
+    "xLarge": ""
+  },
+  "donairSauce": {
+    "title": "Extra Donair Sauce",
+    "small": "3.00",
+    "medium": "3.50",
+    "large": "4.50",
+    "xLarge": ""
+  },
+  "wings": {
+    "title": "Chicken Wings",
+    "small": "13.50",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "tenders": {
+    "title": "Chicken Tender",
+    "small": "13.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "tendersPack": {
+    "title": "Chicken Tenders Party Pack",
+    "small": "33.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "shawarma": {
+    "title": "Shawarma Wrap",
+    "small": "11.99",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  },
+  "shawarmaEggroll": {
+    "title": "Shawarma Eggroll",
+    "small": "5.50",
+    "medium": "",
+    "large": "",
+    "xLarge": ""
+  }
+}
